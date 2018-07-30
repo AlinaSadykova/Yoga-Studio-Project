@@ -1,0 +1,515 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    font-family: "Lato", sans-serif;
+}
+body {
+    font-family: "Lato", sans-serif;
+    width: 980px;
+    text-align: center; 
+    display: block;
+    padding:0;
+    margin: auto;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+#wrapper{
+  
+    width: 980px; 
+    margin: 0 auto; 
+    height: 1000px;
+    padding:0;
+    /* background-color: aqua; */
+}
+#header{
+    width: 980px; 
+    height: 50px;
+    
+    
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 15px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+#menuikon{
+  font-size:30px;
+  cursor:pointer; 
+  display: inline-block;
+  margin-right: 850px; 
+}
+#picture{
+  background-color: lightgrey;
+  width: 980px;
+  height: 650px;
+  display: block; 
+  
+}
+#practice{
+  background-color: rgb(70, 68, 68);
+  width: 980px;
+  height: 460px; 
+  display: block;
+  
+}
+#teachers{
+    background-color: lightgrey;
+    width: 980px;
+    height: 400px; 
+    display: block;
+    padding:25px;
+    
+  }
+  #reviews{
+    background-color: rgb(70, 68, 68);
+    width: 980px;
+    height: 200px; 
+    display: block; 
+   
+  }
+  #bottom{
+    background-color: lightgrey;
+    width: 980px;
+    height: 100px; 
+    display: block;
+  }
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    /* padding-top: 100px; Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.7); /* Black w/ opacity */
+}
+#myBtn{
+    color: #009ea7;
+    text-decoration: none;
+    margin-left: 10px;
+}
+#myBtn:hover{
+    color:rgb(250, 68, 2);
+    font-size: 20px;
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 40%;
+    height: 100%;
+    text-align: center;
+    
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* form  css */
+#forgotpassword{
+    color: darkgrey;
+}
+#submitbutton{
+    background-color: rgb(250, 68, 2);
+    color: white;
+    box-shadow: none;
+    border: none;
+    height: 40px;
+    width: 250px;
+    margin-top: 20px;
+}
+#submitbutton2{
+    background-color: rgb(250, 68, 2);
+    color: white;
+    box-shadow: none;
+    border: none;
+    height: 40px;
+    width: 320px;
+    margin-top: 20px;
+}
+.formtext{
+    color: rgb(90, 88, 88);
+    font-weight: lighter;
+}
+#labeltop{
+    margin-top: 50px;
+}
+.form-group{
+    margin-top: 40px;
+}
+input{
+    height: 40px;
+}
+#or{
+    margin-top: 30px;
+}
+#perrors{
+    color: red;
+}
+#start{
+    height: 200px;
+    width: 400px;
+    margin-left: 50px;
+    margin-top: 150px;
+    text-align: left;
+}
+#getstartedbutton{
+    background-color: rgb(250, 68, 2);
+    color: white;
+    box-shadow: none;
+    border: none;
+    height: 40px;
+    width: 270px;
+    margin-top: 20px;
+}
+#getstartedbutton:hover{
+    background-color: transparent;
+    border: 3px solid rgb(250, 68, 2);
+    color: rgb(250, 68, 2);
+}
+.starttext{
+    color: #009ea7;
+}
+.starttext:hover{
+    color:rgb(250, 68, 2);
+}
+
+/* modal2 css */
+
+.modal2 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    /* padding-top: 100px; Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+     overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.7); /* Black w/ opacity */
+}
+/* Modal Content */
+.modal-content2 {
+    background-color: #fefefe;
+    margin: auto;
+    border: 1px solid #888;
+    width: 100%;
+    
+    text-align: center;
+    
+
+    
+}
+
+/* The Close Button */
+.close2 {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close2:hover,
+.close2:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+.signupdiv{
+    height: auto;
+    width: 400px;
+    display: block;
+    align-self: right;
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 20px;
+    
+}
+#cancelbutton{
+    background-color: grey;
+    color: white;
+    box-shadow: none;
+    border: none;
+    height: 40px;
+    width: 320px;
+    margin-top: 20px;  
+}
+#header{
+    width: 100%;
+    height: 100px;
+    /* box-shadow:5px 5px 20px grey; */
+   box-shadow:  0 4px 7px -2px gray;
+   padding-bottom: 30px;
+     
+}
+#linktosignin{
+    text-decoration: none;
+    color: rgb(250, 68, 2);
+    margin-left: 90%;
+    margin-top: 40px;
+    display: inline-block;
+
+}
+#reviews{
+    padding:25px;
+    height: 450px;
+
+}
+#reviewstext{
+    text-align: center;
+    color: white;
+}
+#myCarousel1{
+    width: 300px;
+    height: 200px;
+    background-color: white;
+    padding: 15px;
+    margin-top: 85px;
+    margin-left: 5px;
+    display: inline-block;
+    text-align: left;
+}
+#myCarousel2{
+    width: 300px;
+    height: 200px;
+    background-color: white;
+    padding: 15px;
+    margin-top: 85px;
+    margin-left: 5px;
+    display: inline-block;
+    text-align: left;
+}
+#myCarousel3{
+    width: 300px;
+    height: 200px;
+    background-color: white;
+    padding: 15px;
+    margin-top: 85px;
+    margin-left: 5px;
+    display: inline-block;
+    text-align: left;
+}
+#myCarousel4{
+    width: 300px;
+    height: 200px;
+    background-color: white;
+    padding: 15px;
+    margin-top: 85px;
+    margin-left: 5px;
+    display: inline-block;
+    text-align: left;
+}
+#myCarousel5{
+    width: 300px;
+    height: 200px;
+    background-color: white;
+    padding: 15px;
+    margin-top: 85px;
+    margin-left: 5px;
+    display: inline-block;
+    text-align: left;
+}
+.carousel-control.left, .carousel-control.right {
+    background-image: none;
+    width: 1%;
+    margin-top: 100px;
+}
+/* #googletext{
+    width: 380px;
+    height: 150px;
+    background-color: red;
+}
+#googlestars{
+    display: inline-block;
+    height: 55px;
+    width: 40%;
+    background-color: blue;
+    margin-top: 15px;
+    align-self: left;
+    margin-right: 25px;
+}
+#googlename{
+    display: inline-block;
+    height: 55px;
+    width: 200px;
+    background-color: blue;
+    margin-top: 15px;
+    align-self: left; 
+} */
+
+/* google fonts */
+/* <link href="https://fonts.googleapis.com/css?family=Loved+by+the+King" rel="stylesheet">
+font-family: 'Loved by the King', cursive; */ 
+#container {
+    width: 100%;
+    margin: 5em auto;
+    padding: 0;
+    background:#fff;
+}
+
+.items {
+    max-width:300px;
+    height:300px;
+    background:#ECECEC;
+}
+
+#left, #right { 
+    margin: 30px;
+}
+.slick-next:before {
+    font-size: 20px;
+    line-height: 1;
+    opacity: 1;
+    color: #fff;
+    margin-right: 100px;
+}
+.slick-prev:before{
+    font-size: 20px;
+    line-height: 1;
+    opacity: 1;
+    color: #fff;
+    margin-left: 100px;
+}
+/* Passwords must have at least 8 characters and contain at least two of the following: uppercase letters, lowercase letters, numbers, and symbols */
+.menu{
+    color: #009ea7;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-bottom: 50px;
+}
+.menu:hover{
+    color: rgb(250, 68, 2);
+    font-size: 20px;
+}
+#logodiv, #menulinks{
+    display: inline-block;
+    
+}
+#logodiv{
+   margin-right: 100px; 
+}
+#menulinks{
+    margin-right: 100px;
+    width: 650px;
+}
+#bottomtext{
+    text-align: left; 
+    width: 800px;
+    height: 50px;
+    /* margin-top: 100px;  */
+    padding-top: 80px;
+    
+    
+}
+#imagewrappersignup{
+    display: inline-block;
+    margin-right: 300px;
+    margin-bottom: 15%;
+    position: fixed;
+}
+#teachersheadertext{
+    color:rgb(70, 68, 68);
+   
+    
+}
+#teachersheadertext{
+    color:rgb(70, 68, 68);
+    
+    
+}
+.titlepr{
+    
+    color:rgb(70, 68, 68);
+   
+
+}
+.timepr{
+    margin-left: 10px;
+    line-height: 50px;
+    color:#009ea7;
+    font-size: 15px;;
+}
+.divpr{
+    padding: 10px;
+}
+.namepr{
+    margin-top: 10px;
+    color:rgb(70, 68, 68);
+    font-size: 15px;
+}
+#getstartedbutton2{
+    background-color: white;
+    color: rgb(70, 68, 68);
+    box-shadow: none;
+    border: none;
+    height: 40px;
+    width: 270px;
+    margin-top: 20px;
+}
+#getstartedbutton2:hover{
+    background-color: transparent;
+    border: 3px solid white;
+    color: white;
+}
+.banner {
+    position: fixed;
+    top: 0; /* or the distance from top page edge */
+    max-height: 100%;
+ }
+ .banner-right { right: 0; } /* or the distance from right page edge */
+ .banner-left { left: 0; } 
+ #reviewsh4{
+     color:white;
+     margin-top: 20px;
+ }

@@ -1,0 +1,6 @@
+/* You can add global styles to this file, and also import other style files */
+#picture{
+background-image:url('/assets/images/woman.jpg') ;
+width: 980px;
+height: 100%;
+}
