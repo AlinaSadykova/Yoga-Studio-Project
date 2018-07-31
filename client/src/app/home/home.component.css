@@ -73,7 +73,8 @@ body {
   
 }
 #practice{
-  background-color: rgb(70, 68, 68);
+  background-color: white;
+
   width: 980px;
   height: 460px; 
   display: block;
@@ -88,14 +89,14 @@ body {
     
   }
   #reviews{
-    background-color: rgb(70, 68, 68);
+    background-color: lightgrey;
     width: 980px;
     height: 200px; 
     display: block; 
    
   }
   #bottom{
-    background-color: lightgrey;
+    background-color: white;
     width: 980px;
     height: 100px; 
     display: block;
@@ -308,7 +309,7 @@ input{
 }
 #reviewstext{
     text-align: center;
-    color: white;
+    color: rgb(70, 68, 68);
 }
 #myCarousel1{
     width: 300px;
@@ -458,14 +459,15 @@ font-family: 'Loved by the King', cursive; */
     margin-bottom: 15%;
     position: fixed;
 }
-#teachersheadertext{
+#teachersheadertext2{
     color:rgb(70, 68, 68);
+    text-align: left;
    
     
 }
 #teachersheadertext{
     color:rgb(70, 68, 68);
-    
+    text-align: left;
     
 }
 .titlepr{
@@ -499,8 +501,8 @@ font-family: 'Loved by the King', cursive; */
 }
 #getstartedbutton2:hover{
     background-color: transparent;
-    border: 3px solid white;
-    color: white;
+    border: 3px solid #009ea7;
+    color: #009ea7;
 }
 .banner {
     position: fixed;
@@ -513,4 +515,5 @@ font-family: 'Loved by the King', cursive; */
      color:white;
      margin-top: 20px;
  }
+
 

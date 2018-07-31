@@ -6,6 +6,7 @@ import { HomeComponent } from './home/home.component';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import { LocationComponent } from './location/location.component';
+import { EtiqueteComponent } from './etiquete/etiquete.component';
 
 
 
@@ -15,6 +16,7 @@ import { LocationComponent } from './location/location.component';
     AppComponent,
     HomeComponent,
     LocationComponent,
+    EtiqueteComponent,
 
   ],
   imports: [

@@ -1,6 +1,38 @@
 /* You can add global styles to this file, and also import other style files */
-#picture{
+/* #picture{
 background-image:url('/assets/images/woman.jpg') ;
 width: 980px;
 height: 100%;
+} */
+.parallax {
+    /* The image used */
+    background-image:url('/assets/images/woman.jpg') ;
+
+    /* Set a specific height */
+    width: 980px;
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: lightgrey;
+    width: 980px;
+    height: 650px;
+    display: block;
+}
+#photo2{
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: lightgrey;
+    background-image: url('/assets/images/rty.jpeg');
+    background-color: lightgrey;
+    width: 980px;
+    height: 100%; 
+    display: block;
+    padding:25px;
+    
 }

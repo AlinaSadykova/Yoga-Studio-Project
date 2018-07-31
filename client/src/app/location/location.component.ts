@@ -25,7 +25,7 @@ export class LocationComponent implements OnInit {
   ngOnInit() {
     var mapProp = {
       center: new google.maps.LatLng(47.4803565, -122.2063973),
-      zoom:19,
+      zoom:20,
       mapTypeId: google.maps.MapTypeId.ROADMAP,
      
       
