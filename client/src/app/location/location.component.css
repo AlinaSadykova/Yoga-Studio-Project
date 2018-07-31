@@ -1,0 +1,58 @@
+body {
+    font-family: "Lato", sans-serif;
+    width: 980px;
+    text-align: center; 
+    display: block;
+    padding:0;
+    margin: auto;
+}
+
+#logodiv{
+    margin-right: 50px; 
+ }
+#menulinks{
+     margin-right: 100px;
+     width: 700px;
+ }
+.menu{
+    color: #009ea7;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-bottom: 50px;
+}
+.menu:hover{
+    color: rgb(250, 68, 2);
+    font-size: 20px;
+}
+#logodiv, #menulinks{
+    display: inline-block;
+    
+}
+.menu3{
+    color: rgb(250, 68, 2);
+    font-size: 20px;
+    margin-left: 10px;
+    margin-bottom: 50px;
+    text-decoration: none;
+}
+#myBtn{
+    color: #009ea7;
+    text-decoration: none;
+    margin-left: 10px;
+}
+#myBtn:hover{
+    color:rgb(250, 68, 2);
+    font-size: 20px;
+}
+#title{
+    color:#009ea7;
+    font-size: 20px;
+}
+.address{
+    text-align: center;
+    color: rgb(70, 68, 68);
+}
+::selection{
+    background: rgb(245, 98, 45);
+    color: white;
+}

@@ -5,7 +5,6 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
-import { Ng2CarouselamosModule } from 'ng2-carouselamos';
 import { LocationComponent } from './location/location.component';
 
 
@@ -22,15 +21,12 @@ import { LocationComponent } from './location/location.component';
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    Ng2CarouselamosModule
-   
-   
-    
+    HttpClientModule 
   ],
+
   providers: [],
   bootstrap: [AppComponent],
  
 })
 export class AppModule { }
-
 
